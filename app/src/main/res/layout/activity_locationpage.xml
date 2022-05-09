@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Locationpage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="Location"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/Locationtext"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_below="@id/Locationtext"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/getlocation"
+        android:text="Get Location"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="Location values"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/getlocation"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/Locationvalues"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
